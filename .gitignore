@@ -1,0 +1,5 @@
+.idea/
+.vscode/
+gdistcc/__pycache__/
+XDG_CACHE_HOME/
+venv-main/
