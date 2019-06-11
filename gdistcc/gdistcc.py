@@ -31,12 +31,12 @@ import json
 from multiprocessing import Pool
 from googleapiclient import discovery
 from oauth2client.client import GoogleCredentials
-import google.auth
+#import google.auth
 from six.moves import input
 
 # [START wait_operation]
 def wait_operation(operation):
-	creds,proj=google.auth.default()
+	#creds,proj=google.auth.default()
     # NOT thread safe
     credentials = GoogleCredentials.get_application_default()
     compute = discovery.build('compute', 'v1', credentials=credentials)

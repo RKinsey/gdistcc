@@ -1,10 +1,13 @@
-###NOTE: ABSOLUTELY NOTHING IN THIS README IS GUARANTEED TO BE ACCURATE!</header>
+##**NOTE: ABSOLUTELY NOTHING IN THIS README IS GUARANTEED TO BE ACCURATE!**
 
-###I'll work on it once I get the script itself running again 
+##I'll work on it once I get the script itself running again  
+
+The short version is that it should work in its current form with two changes:  
+1. Either use a custom `settings.json` or change the `project` field in the current file to the actual ID of your project  
+2. Use `gcloud auth application-default login` to login before calling `gdistcc` the first time. `gcloud init` doesn't actually set the application-default login anymore.
 
 
-
-
+##__ORIGINAL README__
 ## gdistcc 
 
 [![Build Status](https://travis-ci.org/apeabody/gdistcc.svg?branch=master)](https://travis-ci.org/apeabody/gdistcc)
