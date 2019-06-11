@@ -1,4 +1,11 @@
-# gdistcc 
+###NOTE: ABSOLUTELY NOTHING IN THIS README IS GUARANTEED TO BE ACCURATE!</header>
+
+###I'll work on it once I get the script itself running again 
+
+
+
+
+## gdistcc 
 
 [![Build Status](https://travis-ci.org/apeabody/gdistcc.svg?branch=master)](https://travis-ci.org/apeabody/gdistcc)
 [![Dependency Status](https://gemnasium.com/badges/github.com/apeabody/gdistcc.svg)](https://gemnasium.com/github.com/apeabody/gdistcc)

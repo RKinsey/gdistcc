@@ -272,6 +272,11 @@ def main():
         '--version',
         action='version',
         version='%(prog)s 0.9.3')
+    parser.add_argument(
+        "--serviceacc",
+        type=str,
+        help='Service Account secret file, MANDATORY'
+    )
 
     args = parser.parse_args()
 
@@ -284,6 +289,7 @@ def main():
     mode = args.mode
     skipfullstartup = args.skipfullstartup
     globalinstances = args.globalinstances
+    servacc=args.serviceacc
 
     # Check the local distro version
     distro = check_distro(args.settingsfile)
