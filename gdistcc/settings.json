@@ -2,6 +2,18 @@
   "distros": 
     [
       {
+        "name": "ubuntu-1804-lts",
+        "gceproject": "ubuntu-os-cloud",
+        "pydistro": "Ubuntu",
+        "pyversion": "18.04"
+      },
+      {
+        "name": "ubuntu-1810",
+        "gceproject": "ubuntu-os-cloud",
+        "pydistro": "Ubuntu",
+        "pyversion": "18.10"
+      },
+      {
         "name": "centos-7",
         "gceproject": "centos-cloud",
         "pydistro": "CentOS Linux",
